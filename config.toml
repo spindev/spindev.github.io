@@ -64,7 +64,7 @@ weight = 50
 [params]
 author = "SpinDev"
 description = "Some insights in my work and my life."
-keywords = "blog,developer,personal"
+keywords = "DevOps, GitHub, Azure DevOps, GitHub Pages, Azure"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
 
