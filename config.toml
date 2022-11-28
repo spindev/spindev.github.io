@@ -3,7 +3,7 @@ title = "SpinDev"
 
 theme = "puppet"
 
-copyright = "Copyright © 2022"
+copyright = "© 2022 SpinDev"
 paginate = 3
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -41,8 +41,8 @@ unsafe = true
 
 [menu]
 [[menu.main]]
-identifier = "home"
-name = "Home"
+identifier = "start"
+name = "Start"
 url = "/"
 weight = -100
 # [[menu.main]]
@@ -50,6 +50,11 @@ weight = -100
 # name = "Archive"
 # url = "/archive/"
 # weight = 10
+[[menu.main]]
+identifier = "Smart Home"
+name = "Smart Home"
+url = "/smart-home/"
+weight = 30
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -73,11 +78,12 @@ enable = true
 gravatarEmail = ""
 # Overwritten by your gravatar image if `gravatarEmail` is filled
 avatar = "img/home-bg.jpg"
-bio = "DevOps and Agile"
+bio = "DevOps, Azure & Smart Home"
 
 [params.social]
 github = "Spindev"
-linkedin = "Till Spindler"
+linkedin = "Till Spindler2"
+credly = "till-spindler"
 rss = true
 
 [[params.friends]]
@@ -92,10 +98,9 @@ url = "https://writeabout.net"
 name = "Thomas Tomow"
 url = "https://tomow.de"
 
-
 [[params.friends]]
 name = "Michael Contento"
-url = "https://michaelcontento.com"
+url = "https://michaelcontento.de"
 
 # See https://giscus.app/
 [params.giscus]
