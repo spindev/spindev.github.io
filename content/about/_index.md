@@ -6,8 +6,8 @@ date = "2022-11-28"
 author = "SpinDev"
 +++
 
-Hi, my name is Till and I am from Germany. Currently I am working at [Xpirit](https://xpirit.com) Germany as a DevOps Consultant. I have more than 15 years experience in building and running web applications based on the Microsoft tech stack.
+Hi, my name is Till and I am from Germany. I started an new journey at [Xpirit](https://xpirit.com) Germany as a DevOps Consultant. I have more than 15 years experience in building and running web applications based on the Microsoft tech stack.
 
-My hobbies next to DevOps & Agile are spending time with my family and my kids. To take a break a drive to a near by lake and go sailing with my own boat. There is nothing better than being on the water and breathe some fresh air and following the wind.
+I will blog about DevOps, developing for Azure and Smart Home. 
 
-This blog will contain content around DevOps, Developing for Azure and Agile topics. 
+My hobbies next to DevOps & Agile are spending time with my family (especially my kids). To take a break I drive to a near by lake and go sailing with my own boat. There is nothing better than being on the water and breathe some fresh air and following the wind.
