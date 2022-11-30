@@ -16,6 +16,6 @@ But now there is a easier way to achieve the same goal without handling with add
 
 ![](2022-11-28-21-32-00.png)
 
-After changing to GitHub Actions you can create a workflow on a prepared template for Hugo or you take a look [here](https://github.com/spindev/spindev.github.io/blob/main/.github/workflows/hugo.yml). After commiting your new workflow you can delete your old build workflow and your deployment branch. 
+After changing to GitHub Actions you can create a workflow on a prepared template for Hugo or you take a look [here](https://github.com/spindev/spindev.github.io/blob/main/.github/workflows/hugo.yml). After committing your new workflow you can delete your old build workflow and your deployment branch. 
 
 Now you have only one CI/CD workflow for building and deploying your hugo site to GitHub Pages. Awesome :)
