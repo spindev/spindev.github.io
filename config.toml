@@ -87,8 +87,8 @@ credly = "till-spindler"
 rss = true
 
 [[params.friends]]
-name = "Xpirit"
-url = "https://xpirit.com"
+name = "Xpirit Insights"
+url = "https://xpirit.com/news/"
 
 [[params.friends]]
 name = "Michael Kaufmann"
@@ -101,6 +101,18 @@ url = "https://tomow.de"
 [[params.friends]]
 name = "Michael Contento"
 url = "https://michaelcontento.de"
+
+[[params.friends]]
+name = "Robin Konrad"
+url = "https://robinkonrad.de"
+
+[[params.friends]]
+name = "Rob Bos"
+url = "https://devopsjournal.io/"
+
+[[params.friends]]
+name = "Hindrik Bruinsma"
+url = "https://cloudcosmonaut.io/"
 
 # See https://giscus.app/
 [params.giscus]
