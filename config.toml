@@ -118,6 +118,10 @@ url = "https://devopsjournal.io/"
 name = "Hindrik Bruinsma"
 url = "https://cloudcosmonaut.io/"
 
+[[params.friends]]
+name = "Bas van de Sande"
+url = "https://azurecodingarchitect.com/"
+
 # See https://giscus.app/
 [params.giscus]
 enable = false
