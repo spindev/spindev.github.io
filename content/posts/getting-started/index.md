@@ -2,7 +2,7 @@
 title = "Getting Started with my own blog"
 date = 2022-11-28T15:38:30+08:00
 header_img = ""
-toc = true
+toc = false
 tags = ["blog"]
 categories = []
 # series = ["Themes Guide"]

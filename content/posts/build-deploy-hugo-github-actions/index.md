@@ -2,7 +2,7 @@
 title = "Build and Deploy Hugo Sites With GitHub Actions"
 date = 2022-11-28T16:38:30+08:00
 header_img = ""
-toc = true
+toc = false
 tags = ["GitHub", "Hugo", "GitHub Pages"]
 categories = ["GitHub"]
 # series = ["Themes Guide"]
