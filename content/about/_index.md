@@ -10,4 +10,4 @@ Hi, my name is Till and I am from Germany. I started an new journey at [Xpirit](
 
 I will blog about DevOps, developing for Azure and Smart Home. 
 
-My hobbies next to DevOps & Agile are spending time with my family (especially my kids). To take a break I drive to a near by lake and go sailing with my own boat. There is nothing better than being on the water and breathe some fresh air and following the wind.
+My hobbies next to DevOps & Agile are spending time with my family (especially my kids), taking a break at a near by lake sailing with my own boat or doing some sport in nature. There is nothing better than being on the water and breathe some fresh air and following the wind.
