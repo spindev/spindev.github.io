@@ -14,6 +14,7 @@ indexDateFormat = "02.01.2006"
 listDateFormat = "02.01.2006"
 readMore = true
 rssFullContent = true
+favicon = "favicons/"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
@@ -43,6 +44,9 @@ url = "/index.xml"
 mainSections = ["posts"]
 enableEmoji = true
 enableRobotsTXT = true
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 [mermaid]
 enable = true
@@ -61,14 +65,29 @@ identifier = "posts"
 url = "/posts/"
 
 [[menu.main]]
-name = "Smart Home"
-weight = 300
-identifier = "smart-home"
-url = "/smart-home/"
-
-[[menu.main]]
 name = "About"
 weight = 400
 identifier = "about"
 url = "/about/"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
 
