@@ -1,134 +1,74 @@
-baseURL = "/"
-title = "SpinDev"
-
-theme = "puppet"
-
-copyright = "© 2022 SpinDev"
-paginate = 3
-languageCode = "en"
-defaultContentLanguage = "en"
-
-hasCJKLanguage = true
-enableInlineShortcodes = true
-enableEmoji = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
-
-disqusShortname = ""
-googleAnalytics = ""
-
-[outputs]
-home = ["HTML", "JSON", "RSS"]
-
-# prevent build failures when using Hugo's template _internal/opengraph.html 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-[markup]
-[markup.highlight]
-noClasses = true
-codeFences = true
-guessSyntax = true
-lineNos = true
-lineNumbersInTable = false
-style = "dracula"
-
-[markup.goldmark.renderer]
-unsafe = true
-
-[menu]
-[[menu.main]]
-identifier = "start"
-name = "Start"
-url = "/"
-weight = -100
-# [[menu.main]]
-# identifier = "archive"
-# name = "Archive"
-# url = "/archive/"
-# weight = 10
-[[menu.main]]
-identifier = "Smart Home"
-name = "Smart Home"
-url = "/smart-home/"
-weight = 30
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 50
+theme = "anatole"
 
 [params]
+title = "My Blog"
 author = "SpinDev"
 description = "Some insights in my work and my life."
 keywords = "DevOps, GitHub, Azure DevOps, GitHub Pages, Azure"
-img_home = "img/home-bg.jpg"
-img_404 = "img/404-bg.jpg"
+profilePicture = "images/logo.png"
+copyright = "SpinDev 2022-{{ YEAR }}"
+displayMode = "dark"
+contentratio = 0.7
+singleDateFormat = "02.01.2006"
+indexDateFormat = "02.01.2006"
+listDateFormat = "02.01.2006"
+readMore = true
+rssFullContent = true
 
-useFaviconGenerator = true
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/spindev/"
 
-custom_js = []
-custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/css/custom.css]
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/till-spindler-78207024b"
 
-[params.sidebar]
+[[params.socialIcons]]
+icon = "fas fa-certificate"
+title = "credly"
+url = "https://credly.com/users/till-spindler/badges"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:hello@spindev.org"
+
+[[params.socialIcons]]
+icon = "fas fa-rss"
+title = "rss"
+url = "/index.xml"
+
+mainSections = ["posts"]
+enableEmoji = true
+enableRobotsTXT = true
+
+[mermaid]
 enable = true
-gravatarEmail = ""
-# Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "img/home-bg.jpg"
-bio = "DevOps, Azure & Smart Home"
 
-[params.social]
-github = "Spindev"
-linkedin = "till-spindler-78207024b"
-credly = "till-spindler"
-rss = true
+[menu]
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
 
-[[params.friends]]
-name = "Xpirit Insights"
-url = "https://xpirit.com/news/"
+[[menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/posts/"
 
-[[params.friends]]
-name = "Michael Kaufmann"
-url = "https://writeabout.net"
+[[menu.main]]
+name = "Smart Home"
+weight = 300
+identifier = "smart-home"
+url = "/smart-home/"
 
-[[params.friends]]
-name = "Thomas Tomow"
-url = "https://tomow.de"
+[[menu.main]]
+name = "About"
+weight = 400
+identifier = "about"
+url = "/about/"
 
-[[params.friends]]
-name = "Michael Contento"
-url = "https://michaelcontento.de"
-
-[[params.friends]]
-name = "Robin Konrad"
-url = "https://robinkonrad.de"
-
-[[params.friends]]
-name = "Andreas Läubli"
-url = "https://powerranger.space"
-
-[[params.friends]]
-name = "Rob Bos"
-url = "https://devopsjournal.io/"
-
-[[params.friends]]
-name = "Hindrik Bruinsma"
-url = "https://cloudcosmonaut.io/"
-
-[[params.friends]]
-name = "Bas van de Sande"
-url = "https://azurecodingarchitect.com/"
-
-# See https://giscus.app/
-[params.giscus]
-enable = false
-repo = "roninro/hugo-theme-puppet"
-repo_id = "R_kgDOHuvyhw"
-category = "General"
-category_id = "DIC_kwDOHuvyh84CQjDo"
-input_position = "top"
-theme = "light_tritanopia"
-lang = "en"
