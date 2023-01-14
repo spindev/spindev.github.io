@@ -14,6 +14,6 @@ I followed this pretty easy and straightforward [guide](https://www.freecodecamp
 
 Over the next days I will add some new content and finalize the blog setup.
 
-Feel free to subscribe my [RSS-Feed](/index.xml) or connect via [LinkedIn](https://linkedin.com/in/Till%20Spindler) or [GitHub](https://github.com/Spindev).
+Feel free to subscribe my [RSS-Feed](/index.xml) or connect via [LinkedIn](https://de.linkedin.com/in/till-spindler-78207024b) or [GitHub](https://github.com/Spindev).
 
 Also you can checkout the blogs of my friends.

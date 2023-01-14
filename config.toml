@@ -24,7 +24,7 @@ url = "https://github.com/spindev/"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/till-spindler-78207024b"
+url = "https://de.linkedin.com/in/till-spindler-78207024b"
 
 [[params.socialIcons]]
 icon = "fas fa-certificate"
@@ -61,8 +61,8 @@ url = "/"
 [[menu.main]]
 name = "Posts"
 weight = 200
-identifier = "posts"
-url = "/posts/"
+identifier = "post"
+url = "/post/"
 
 [[menu.main]]
 name = "About"
