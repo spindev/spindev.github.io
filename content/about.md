@@ -1,8 +1,8 @@
 +++
-title = "SpinDev | About"
+title = "About"
 description = "Who am I?"
 date = "2022-11-28"
-# aliases = ["about-us", "about-hugo", "contact"]
+aliases = ["about-me"]
 author = "SpinDev"
 +++
 
