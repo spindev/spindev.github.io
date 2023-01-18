@@ -65,6 +65,12 @@ identifier = "post"
 url = "/post/"
 
 [[menu.main]]
+name = "Friends"
+weight = 300
+identifier = "friends"
+url = "/friends/"
+
+[[menu.main]]
 name = "About"
 weight = 400
 identifier = "about"
