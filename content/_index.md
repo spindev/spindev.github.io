@@ -1,5 +1,6 @@
 +++
 author = "SpinDev"
+title = "Home"
 +++
 
 <!--
