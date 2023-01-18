@@ -7,7 +7,7 @@ author = "SpinDev"
 
 Here you can find some more blogs from my friends
 
-- [Xpirit](https://xpirit.com/news)
+- [Xpirit](https://xpirit.com/news/)
 - [Michael Kaufmann](https://writeabout.net)
 - [Thomas Tomow](https://tomow.de)
 - [Michael Contento](https://michaelcontento.de")
