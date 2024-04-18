@@ -12,7 +12,7 @@ Here you can find some more blogs from my friends
 - [Thomas Tomow](https://tomow.de)
 - [Michael Contento](https://michaelcontento.de")
 - [Robin Konrad](https://robinkonrad.de)
-- [Maik MÜller](https://aatmmr.dev)
+- [Maik Müller](https://aatmmr.dev)
 - [Andreas Läubli](https://powerranger.space)
 - [Rob Bos](https://devopsjournal.io/)
 - [Hindrik Bruinsma](https://cloudcosmonaut.io/)
