@@ -15,6 +15,7 @@ listDateFormat = "02.01.2006"
 readMore = true
 rssFullContent = true
 favicon = "favicons/"
+customCss = ["css/custom.css"]
 
 [[params.socialIcons]]
 icon = "fab fa-github"
