@@ -19,7 +19,7 @@ A classic GitHub PAT gives you the possibility to authenticate using a token aga
 ## What is the issue with the repo scope token? 
 I was currently working for a customer and they wanted to migrate from GitHub Enterprise Server to GitHub Enterprise Cloud. Therefore we have tooling in place like the [GitHub Enterprise Importer (GEI)](https://docs.github.com/en/migrations/using-github-enterprise-importer). One downside of the tooling is, it will not migrate teams, users, repo permissions, etc. That was the reason I created some post-migration scripts to do the work and with this I noticed something weird. I only had a `repo` scope token accidentally but wanted to create a team for the organization. And guess what? It worked... 😵‍💫
 
-I was confused and checked my token, looked like this
+I was confused and checked the scope of my token, looked like this
 
 ![repo scope](repo-scope.png)
 
