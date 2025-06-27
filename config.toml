@@ -20,6 +20,12 @@ rssFullContent = true
 favicon = "favicons/"
 customCss = ["css/custom.css"]
 
+[params.giscus]
+repo = "spindev/spindev.github.io"
+repoID = "R_kgDOIhKBpA"
+category = "General"
+categoryID = "DIC_kwDOIhKBpM4CsH2C"
+
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
