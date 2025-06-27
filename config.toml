@@ -1,4 +1,7 @@
-theme = "anatole"
+[module]
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
 
 [params]
 title = "My Blog"
