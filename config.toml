@@ -26,6 +26,11 @@ repoID = "R_kgDOIhKBpA"
 category = "General"
 categoryID = "DIC_kwDOIhKBpM4CsH2C"
 
+[params.umami]
+serverURL = "cloud.umami.is"
+id = "b55bfdb2-f443-43e9-b5f6-4b5f40855584"
+trackerScriptName = "script.js"
+
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
