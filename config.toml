@@ -7,7 +7,7 @@
 title = "My Blog"
 author = "SpinDev"
 description = "Some insights in my work and my life."
-keywords = "DevOps, GitHub, Azure DevOps, GitHub Pages, Azure"
+keywords = "DevOps, GitHub, Azure DevOps, GitHub Pages, Azure, dotnet, c#"
 profilePicture = "images/logo.png"
 copyright = "SpinDev 2022-{{ YEAR }}"
 displayMode = "dark"
@@ -49,7 +49,7 @@ url = "https://credly.com/users/till-spindler/badges"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:hello@spindev.org"
+url = "mailto:hello@spindev.net"
 
 [[params.socialIcons]]
 icon = "fas fa-rss"
